@@ -8,7 +8,6 @@ h1 {
 
 p:first-of-type {
 	opacity: 1;
-	color: gray;
 }
 
 h2 {
@@ -39,7 +38,7 @@ p:first-of-type {
 	margin: 9px 0 45px 0;
 
   font-family: "PT Sans", sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 1,5;
 }
 
@@ -51,7 +50,7 @@ p {
 }
 
 p {
-	margin-bottom: 52px
+	margin-bottom: 40px
 }
 
 a {
@@ -64,25 +63,18 @@ body {
 	margin-right: auto;
 	margin-bottom: 0;
 	margin-left: auto;
+
+  background-image: url(https://hdqwalls.com/wallpapers/morning-forest-mountains-4k.jpg);
+  background-attachment:fixed;
 }
 
-li {
-  margin: 2px 0 5px 0;
+.bg {
+  padding: 20px;
 
-	list-style-type: disc;
-
-	font-family: "PT Sans", sans-serif;
-	font-size: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.40);
 }
 
-article li {
-	margin: 7px 0 45px 0;
-
-	list-style-type: disc;
-
-	font-family: "PT Sans", sans-serif;
-	font-size: 20px;
-}
 
 blockquote {
 	margin: 7px 0 45px 0;
@@ -117,6 +109,55 @@ nav {
   left: 0;
 }
 
-nav ul li ul {
-  color: grey;
+article {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  left: 0 px;
+
+  padding: 7px 20px;
+
+  border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.40);
+
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+}
+
+.menu-list {
+  padding: 0;
+
+  list-style: none;
+}
+
+.menu-list a:before {
+  margin-right: 14px;
+
+  content: "\2014";
+}
+
+.menu-list a {
+  left:100%;
+
+display: block;
+
+  padding: 6px 0;
+
+  transition: .5s linear;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  color: #000000;
+  outline: none;
+
+  font-weight: 300;
+}
+
+.menu-list a:hover {
+  padding: 8px 0 8px 10px;
+
+  color: pink;
 }
